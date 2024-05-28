@@ -34,6 +34,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         view.addSubview(startButton)
+        buttonTapped()
         NSLayoutConstraint.activate([
             startButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             startButton.centerYAnchor.constraint(equalTo: view.centerYAnchor),
